@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment01_22304100_task2.FXMLDocumentController">
+    <children>
+      <Text layoutX="123.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tasif's First JavaFX App">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+        <Label fx:id="label" layoutX="166.0" layoutY="243.0" minHeight="16" minWidth="69">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <Button fx:id="button1" layoutX="37.0" layoutY="97.0" mnemonicParsing="false" onAction="#handleButtonAction1" text="Button 1" />
+      <Button fx:id="button2" layoutX="123.0" layoutY="97.0" mnemonicParsing="false" onAction="#handleButtonAction2" text="Button 2" />
+      <Button fx:id="button3" layoutX="204.0" layoutY="97.0" mnemonicParsing="false" onAction="#handleButtonAction3" text="Button 3" />
+      <Button fx:id="button4" layoutX="288.0" layoutY="97.0" mnemonicParsing="false" onAction="#handleButtonAction4" text="Button 4" />
+      <Button fx:id="exitbtn" layoutX="169.0" layoutY="192.0" mnemonicParsing="false" onAction="#handleExitButtonAction" text="Exit" textFill="RED">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
