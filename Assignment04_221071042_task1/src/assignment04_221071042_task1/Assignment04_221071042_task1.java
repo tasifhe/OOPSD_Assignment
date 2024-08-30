@@ -18,7 +18,7 @@ public class Assignment04_221071042_task1 extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("SignupFXML.fxml"));
         
         Scene scene = new Scene(root);
         

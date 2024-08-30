@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment04_221071042_task1.SignupFXMLController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <VBox layoutX="150.0" layoutY="150.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <Label text="Sign Up" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets left="150.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fullnameTF" promptText="Full Name">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="60.0" right="60.0" top="50.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="emailTF" promptText="Email">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="60.0" right="60.0" />
+               </VBox.margin>
+            </TextField>
+            <DatePicker fx:id="bdate" promptText="Birthdate">
+               <VBox.margin>
+                  <Insets left="60.0" right="60.0" />
+               </VBox.margin>
+            </DatePicker>
+            <Label text="Gender?">
+               <VBox.margin>
+                  <Insets left="60.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <RadioButton fx:id="maleRB" mnemonicParsing="false" text="Male">
+               <VBox.margin>
+                  <Insets left="60.0" right="60.0" top="10.0" />
+               </VBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="femaleRB" mnemonicParsing="false" text="Female">
+               <VBox.margin>
+                  <Insets left="60.0" right="60.0" top="10.0" />
+               </VBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="otherRB" mnemonicParsing="false" text="Other">
+               <VBox.margin>
+                  <Insets left="60.0" right="60.0" top="10.0" />
+               </VBox.margin>
+            </RadioButton>
+            <TextField fx:id="cityTF" promptText="City">
+               <VBox.margin>
+                  <Insets left="60.0" right="60.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+              <Button fx:id="signupBTN" onAction="#handleSignup" text="Signup">
+               <VBox.margin>
+                  <Insets left="60.0" top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+    </children>
+</AnchorPane>
