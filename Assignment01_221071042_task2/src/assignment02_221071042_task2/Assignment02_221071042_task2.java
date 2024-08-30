@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXML.java to edit this template
  */
-package assignment01_221071042_task2;
+package assignment02_221071042_task2;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -14,7 +14,7 @@ import javafx.stage.Stage;
  *
  * @author tasif
  */
-public class Assignment01_221071042_task2 extends Application {
+public class Assignment02_221071042_task2 extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
