@@ -45,10 +45,6 @@ public class LoginFXMLDocumentController implements Initializable {
     
     private ToggleGroup genderGroup;
     
-//    private void handleButtonAction(ActionEvent event) {
-//        System.out.println("You clicked me!");
-//        label.setText("Hello World!");
-//    }
     
     @Override
     public void initialize(URL url, ResourceBundle rb)
@@ -93,7 +89,7 @@ public class LoginFXMLDocumentController implements Initializable {
     private void handleExitButtonAction(ActionEvent event)
     {
         System.out.println("Exited");
-        label.setText("Exiting");
+        //label.setText("Exiting");
         Stage stage = (Stage) exitBTN.getScene().getWindow();
         stage.close();
     }
